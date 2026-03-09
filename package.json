@@ -1,0 +1,16 @@
+{
+  "name": "teste_cypres",
+  "version": "1.0.0",
+  "description": "Projeto de testes E2E com Cypress para a agenda de contatos da EBAC",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "npm run cy:run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.11.0"
+  }
+}
