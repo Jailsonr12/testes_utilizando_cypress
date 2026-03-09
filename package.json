@@ -5,12 +5,15 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
+    "cy:inclusao": "cypress run --spec cypress/e2e/inclusao-contato.cy.js",
+    "cy:alteracao": "cypress run --spec cypress/e2e/alteracao-contato.cy.js",
+    "cy:remocao": "cypress run --spec cypress/e2e/remocao-contato.cy.js",
     "test": "npm run cy:run"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^15.11.0"
+    "cypress": "^12.6.0"
   }
 }
